@@ -1,0 +1,237 @@
+* {
+	margin:0;
+	font-family:sans-serif;
+	box-sizing:border-box;
+}
+.wrapper {
+}
+.topBar {
+	width:100%;
+	height:90px;
+	background-color:#F6F9F9;
+}
+.topBar img {
+	width:40px;
+	position: relative;
+	left:100px;
+	top:15px;
+}
+#topName {
+	font-size:25px;
+	margin-left:110px;
+	
+}
+
+
+.keyImage {
+	background-image:url(../images/laptop.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:800px;
+	text-align: center;
+}
+
+ .keyImage h1 {
+	font-size:110px;
+	color:aliceblue;
+	padding-bottom:15px;
+	 margin-bottom:0px;
+	text-align: center;
+	 padding-top:175px;
+	
+	
+}
+ #line {
+	width:50%;
+	border-bottom:2px solid #176EA4;
+	margin-top:-145px;
+	margin:0 auto;
+}
+
+p.paraLine {
+	color:aliceblue;
+	font-size:20px;
+	text-align: center;
+	margin-top:30px;
+	line-height:40px;
+}
+
+button {
+	padding:10px 15px;
+	font-size:13px;
+	color:aliceblue;
+	border-left:1px solid #176EA4;
+	border-top:1px solid #176EA4;
+	background-color:transparent;
+	border-right:transparent;
+	border-bottom:transparent;
+	margin-top:30px;
+
+	
+}
+p.button:hover {
+	cursor:pointer;
+}
+.bottomArrow {
+	text-align: center;
+	margin-top:100px;
+}
+
+.arrow {
+	width:40px;
+	
+	
+	
+}
+.arrow:hover {
+	cursor:pointer;
+}
+.section2 {
+	text-align: center;
+	background-color:#F6F9F9;
+	padding-top:20px;
+	margin-top:-20px;
+}
+.section2 h2 {
+	font-size:40px;
+	margin:20px;
+	
+}
+.section2 p {
+	padding:35px 80px;
+	line-height:35px;
+
+}
+.section3 {
+	text-align: center;
+}
+.section3one {
+	width:21%;
+	padding:10px;
+	display:inline-block;
+	margin:5% 1%;
+}
+.section3 img {
+	width:100px;
+	height:100px;
+	margin:0 auto;
+}
+.section3 h3 {
+	margin-top:30px;
+	margin-bottom:3%;
+}
+.section3 p {
+	margin-top:20px;
+	padding:15px;
+	line-height:25px;
+	color:#999999;
+}
+.gallery {
+	background-color:#F6F9F9;
+		
+}
+.showcase {
+	text-align: center;
+	padding:50px 0 0;
+}
+.showcase h2 {
+	padding:40px 0 25px 0;
+	font-size:35px;
+}
+.showcase p {
+	color:#999999;
+}
+.showcase .pictures {
+	display:inline-block;
+	width:25%;
+	padding:10px;
+	margin:10px;
+}
+.pictures img {
+	width:100%;
+	margin:25px;
+}
+.showcase2 {
+	text-align: center;
+	margin-top:-50px;
+}
+.showcase2 .pictures2 {
+	display:inline-block;
+	width:25%;
+	margin:10px;
+	padding:0 10px 10px 10px;
+}
+.pictures2 img {
+	width:100%;
+	margin:25px;
+}
+.subscribe {
+	background-color:#293449;
+	padding-bottom:30px;
+}
+.subscribe .Staywithus {
+	text-align: center;
+	width:100%;
+}
+.subscribe h1 {
+	font-size:45px;
+	padding-top:150px;
+	padding-bottom:20px;
+	color:#FFFFFF;
+}
+.subscribe p {
+	color:#999999;
+	margin-bottom:15px;
+	
+	
+}
+input, textarea {
+	margin:5px;
+	border-radius:5px;
+	background-color:transparent;
+	padding:10px;
+	width:30%;
+	font-size:15px
+}
+textarea {
+	height:100px;
+}
+form {
+	display:block;
+	margin:10px auto;
+	color:#fff;
+}
+form > input {
+	width:30%;
+}
+form span > input{
+	width:3%;
+}
+form span >button {
+	margin-left:30px;
+}
+.footer {
+	background-color:#F6F9F9;
+
+	
+}
+.footer p {
+	float:left;
+	margin:auto 75px;
+	color:black;
+	padding:20px;
+	
+}
+.footer li {
+	display:inline-block;
+	float:right;
+	padding:10px;
+}
+.footer ul {
+	margin:auto 50px;
+	padding:20px;
+}
+.footer img {
+	width:35px;
+
+}
